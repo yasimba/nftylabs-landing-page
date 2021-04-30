@@ -1,0 +1,67 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+  
+    --font-size-l: 25px;
+    --font-size-m: 24px;
+    --font-size-s: 16px;
+    --font-size-xl: 30px;
+    --font-size-xs: 12px;
+    --font-size-xxl: 55px;
+    --font-size-xxxl: 95px;
+  
+    --font-family-rubik: "Rubik", Helvetica;
+  }
+  .rubik-normal-white-16px {
+    color: var(--white);
+    font-family: var(--font-family-rubik);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 400;
+  }
+  .rubik-medium-black-24px {
+    color: var(--black);
+    font-family: var(--font-family-rubik);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 500;
+  }
+  .rubik-medium-white-16px {
+    color: var(--white);
+    font-family: var(--font-family-rubik);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 500;
+  }
+  .rubik-light-black-24px {
+    color: var(--black);
+    font-family: var(--font-family-rubik);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 300;
+  }
+  .rubik-bold-black-30px {
+    color: var(--black);
+    font-family: var(--font-family-rubik);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 700;
+  }
+  .rubik-bold-white-30px {
+    color: var(--white);
+    font-family: var(--font-family-rubik);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 700;
+  }
+  .rubik-light-black-16px {
+    color: var(--black);
+    font-family: var(--font-family-rubik);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 300;
+  }
+  .border-2px-white {
+    border: 2px solid var(--white);
+  }
+  
